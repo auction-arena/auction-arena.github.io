@@ -1187,7 +1187,10 @@
 
 
   <div class="col-12">
-    <p>
+    <p>Welcome to the battleground where AI, especially Large Language Models (LLMs), test their mettle in an environment pulsating with strategy, risk, and competition - the <em>Auction Arena</em>!</p>
+<h2 id="introduction-a-dive-into-dynamic-auctions-with-llms">Introduction: A Dive into Dynamic Auctions with LLMs</h2>
+<p>Exploring AI’s capabilities often pivots around static benchmarks. But what happens when we plunge LLMs like GPT-4 and Claude-2 into a dynamic, competitive, and strategically demanding environment? Our research, encapsulated in our new paper <a href="http://arxiv.org/abs/2310.05746" target="_blank" rel="noopener">&ldquo;Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena&rdquo;</a>, explores just that!</p>
+<p>
 
 
 
@@ -1208,7 +1211,98 @@
     <div class="w-100" ><img src="/uploads/featured.jpg" alt="featured" loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<p>Can Large Language Models (LLMs) simulate human behavior in complex environments? LLMs have recently been shown to exhibit advanced reasoning skills but much of NLP evaluation still relies on static benchmarks. Answering this requires evaluation environments that probe strategic reasoning in competitive, dynamic scenarios that involve long-term planning. We introduce AucArena, a novel simulation environment for evaluating LLMs within auctions, a setting chosen for being highly unpredictable and involving many skills related to resource and risk management, while also being easy to evaluate. We conduct several controlled simulations using state-of-the-art LLMs as bidding agents. We find that through simple prompting, LLMs do indeed demonstrate many of the skills needed for effectively engaging in auctions (e.g., managing budget, adhering to long-term goals and priorities), skills that we find can be sharpened by explicitly encouraging models to be adaptive and observe strategies in past auctions. These results are significant as they show the potential of using LLM agents to model intricate social dynamics, especially in competitive settings. However, we also observe considerable variability in the capabilities of individual LLMs. Notably, even our most advanced models (GPT-4) are occasionally surpassed by heuristic baselines and human agents, highlighting the potential for further improvements in the design of LLM agents and the important role that our simulation environment can play in further testing and refining agent architectures.</p>
+<h2 id="crafting-ai-bidders-planning-bidding-and-replanning">Crafting AI Bidders: Planning, Bidding, and Replanning</h2>
+<p>Inspired by the Belief-Desire-Intention (BDI) model, our Bidder Agent navigates through the auction with a robust mechanism involving Planning-Bidding-Belief Update-Replanning, ensuring it can strategize, bid, reassess, and replan to navigate the tumultuous waters of the auction.</p>
+<h2 id="the-battle-of-the-llms-in-the-auction-arena">The Battle of the LLMs in the Auction Arena</h2>
+<p>Pitting various LLMs against each other, we witnessed a rollercoaster of strategies and performances. GPT-4 showed promise and Claude-2 was impressive, yet our heuristic rule-bidder occasionally stole the show, especially when the budgetary stakes were high.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="/uploads/intraspecific.jpg" alt="Figure 3" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="emergent-niche-specification-among-varied-bidders">Emergent Niche Specification among Varied Bidders</h2>
+<p>When introducing bidders with disparate goals - Profit Bidders and Item Bidders - the auction morphed into a biome of &ldquo;niche separation&rdquo;, where agents carved out their own strategic domains, chasing after different valued items, much akin to ecosystems in nature.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="/uploads/interspecific.jpg" alt="Figure 4" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="analyzing-llm-performance-planning-execution-and-adaptability">Analyzing LLM Performance: Planning, Execution, and Adaptability</h2>
+<p>The core abilities of LLMs were put under the microscope. First of all, their basic skills: better LLMs, less belief errors:</p>
+<center class="half">
+  <img src="/uploads/error.png" width="50%"/>
+</center>
+<p>When examine the faithfulness between strategic planning and execution, Claude-2 emerged as a decisive &ldquo;doer&rdquo;:</p>
+<center>
+<img src="/uploads/correlation.png" width="50%" />
+</center>
+<p>Being adaptive to the changing environment was crowned as a lucrative trait in the auction environment:</p>
+<center>
+<img src="/uploads/adaptive.png" width="50%" />
+</center>
+<p>And thus you will see a clear planning change under different item orders, showing the fact that, by being adaptive, certain LLM agents can save money for the future!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="/uploads/heatmap.png" alt="Figure 5" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="testing-your-auction-skills-against-ai">Testing Your Auction Skills Against AI</h2>
+<p>Dare to step into the arena yourself? Engage with our <a href="https://huggingface.co/spaces/jiangjiechen/Auction-Arena-Demo" target="_blank" rel="noopener">live auction arena</a> and pit your strategic auctioning skills against AI. Can you outbid the machines?</p>
+<p align="center">
+<img src="/uploads/human.png" width="70%" />
+</p>
+<h2 id="wrapping-up-the-bidding-war-insights-and-implications">Wrapping Up the Bidding War: Insights and Implications</h2>
+<p>Our exploration into the Auction Arena reveals the multifaceted capabilities and potential areas of improvement for LLMs in strategic, dynamic, and competitive scenarios. From showcasing adept resource management to occasionally being outshone by heuristic baselines and humans, the LLMs demonstrated both their strengths and weaknesses in our auction environment.</p>
+<h2 id="delving-deeper">Delving Deeper</h2>
+<p>For a comprehensive dive into our methodologies, findings, and insights, explore our research paper. There are many TODOs left for future research, such as manipulating the simulation for more details and setups; enable life-long learning for LLM agents; making LLM agents more aware of the desires, etc.</p>
 
   </div>
 
