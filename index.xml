@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Auction Arena</title>
+    <link>https://auction-arena.github.io/</link>
+      <atom:link href="https://auction-arena.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Auction Arena</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://auction-arena.github.io/media/icon_hua9f9b78e35233aa477f7219cbf68418f_67044_512x512_fill_lanczos_center_3.png</url>
+      <title>Auction Arena</title>
+      <link>https://auction-arena.github.io/</link>
+    </image>
+    
+    <item>
+      <title>AucArena Code</title>
+      <link>https://auction-arena.github.io/project/code/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://auction-arena.github.io/project/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AucArena Demo</title>
+      <link>https://auction-arena.github.io/project/demo/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://auction-arena.github.io/project/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AucArena Paper</title>
+      <link>https://auction-arena.github.io/project/paper/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://auction-arena.github.io/project/paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://auction-arena.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://auction-arena.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://auction-arena.github.io/sitemap.xml
